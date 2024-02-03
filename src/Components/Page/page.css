@@ -1,0 +1,10 @@
+.heading{
+    text-align: center;
+}
+.page{
+    width: 100vw;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
