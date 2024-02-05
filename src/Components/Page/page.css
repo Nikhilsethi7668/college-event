@@ -7,4 +7,12 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
+    margin: 30px;
+    padding: 50px;
+    gap:40px;
+}
+.heading{
+    color: white;
+    padding-top: 100px;
+    
 }

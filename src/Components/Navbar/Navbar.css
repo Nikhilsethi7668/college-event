@@ -1,0 +1,22 @@
+.Navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+h2{
+    
+    height: 50px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+h2:hover{
+    cursor: pointer;
+    background-color: gray;
+}
