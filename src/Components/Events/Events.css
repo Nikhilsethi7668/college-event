@@ -11,3 +11,8 @@
 h1 {
     background-color: bisque;
 }
+
+.past {
+    display: flex;
+    flex-wrap: wrap;
+}

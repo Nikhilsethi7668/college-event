@@ -11,6 +11,8 @@ import Attendance from "../Components/Attendance/Attendance";
 import Calander from "../Components/Calander/Calander";
 import Communicate from "../Components/Communicate/Communicate";
 import Home from "../Components/Home/Home";
+import Photos from "../Components/Photos/Photos";
+import Event from "../Components/Event/Event"
 function Routing() {
     return (
 
@@ -19,12 +21,13 @@ function Routing() {
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/payments/:option" element={<name />} />
-
+            <Route path="/events/:eventname" element={<Event />} />
+            {/* <Route path="/payments/:option" element={<name />} /> */}
             <Route path="/gallary" element={<Gallary />} />
+            <Route path="gallary/:eventany" element={<Photos />} />
             <Route path="/winners" element={<Winners />} />
             <Route path="/payments" element={<Payment />} />
-            <Route path="/payments/:option" element={<dc />} />
+            {/* <Route path="/payments/:option" element={<dc />} /> */}
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/calander" element={<Calander />} />
             <Route path="/communicate" element={<Communicate />} />

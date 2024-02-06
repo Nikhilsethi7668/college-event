@@ -22,7 +22,7 @@ function Gallary() {
                         details="Click here to get into the Vibgyor 2024"
                         button="Vibgyor"
                         image="https://i.ytimg.com/vi/UG0dXefQRkU/maxresdefault.jpg"
-                        route="/events"
+                        route="/gallary/vibgyor"
                         size="15rem"
 
                     />
@@ -31,7 +31,7 @@ function Gallary() {
                         details="Click here to get into the Aaghaaz 2024"
                         button="Aaghaaz"
                         image={img2}
-                        route="/events"
+                        route="/gallary/aaghaaz"
                         size="15rem"
                     />
                     <KitchenSinkExample
@@ -39,7 +39,7 @@ function Gallary() {
                         details="Click here to get into the Chakravyuh 2024"
                         button="Chakravyuh"
                         image={img1}
-                        route="/events"
+                        route="/gallary/chakravyuh"
                         size="15rem"
                     />
                     <KitchenSinkExample
@@ -47,7 +47,7 @@ function Gallary() {
                         details="Click here to get into the DJ Night 2024"
                         button="DJ Night"
                         image="https://shorturl.at/asHK2"
-                        route="/events"
+                        route="/gallary/dj-night"
                         size="15rem"
                     />
                     <KitchenSinkExample
@@ -55,7 +55,7 @@ function Gallary() {
                         details="Click here to get into the Freshers 2024"
                         button="Freshers"
                         image="https://shorturl.at/aU379"
-                        route="/events"
+                        route="/gallary/freshers"
                         size="15rem"
                     />
                     <KitchenSinkExample
@@ -63,7 +63,7 @@ function Gallary() {
                         details="Click here to get into the Farewell 2024"
                         button="Farewell"
                         image="https://shorturl.at/ckEIO"
-                        route="/events"
+                        route="/gallary/farewell"
                         size="15rem"
                     />
 

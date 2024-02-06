@@ -1,5 +1,6 @@
 import React from 'react'
 import KitchenSinkExample from '../Card/Card'
+import freshers from "../Events/freshers.png"
 import aaghaazimg from "../Gallary/aaghaaz.jpeg"
 import "./Events.css"
 
@@ -15,7 +16,7 @@ function Events() {
                     details="Event date- 09/02/2024"
                     button="Check Contests"
                     image={aaghaazimg}
-                    route="/aaghaaz"
+                    route="/events/aaghaaz"
                     size="15rem"
                     height="20rem"
 
@@ -27,14 +28,23 @@ function Events() {
             </center>
             <div className="past">
                 <KitchenSinkExample
-                    title="AAGHAAZ"
-                    details="Event date- 09/02/2024"
-                    button="Check Contests"
-                    image={aaghaazimg}
-                    route="/aaghaaz-contest"
+                    title="Freshers"
+                    details="Event date- 07/01/2024"
+                    button="View Images"
+                    image={freshers}
+                    route="/gallary/freshers"
                     size="15rem"
                     height="20rem"
 
+                />
+                <KitchenSinkExample
+                    title="DJ NIGHT"
+                    details="Event date- 8/12/23"
+                    button="View Images"
+                    image="https://shorturl.at/asHK2"
+                    route="/gallary/DJ-Night"
+                    size="15rem"
+                    height="20rem"
                 />
 
             </div>

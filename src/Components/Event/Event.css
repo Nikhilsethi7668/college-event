@@ -1,0 +1,10 @@
+.event h1 {
+    color: Black;
+    margin: auto;
+}
+
+.contests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -7,7 +7,7 @@ function Payment() {
   const [paymentDues, setPaymentDues] = useState(false);
 
   return (
-    <div className="payment">
+    <div className="payment" >
       <h2>Check your payment status here</h2>
       <center>
         <h1>{paymentDues ? "CLEAR YOUR DUESS!!!" : "NO DUES!!! "}</h1>
