@@ -1,0 +1,23 @@
+.heading {
+    color: black;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.card1 {
+    display: flex;
+    gap: 5px;
+
+
+}
+
+.heading h2 {
+    color: black;
+    padding-bottom: 90px;
+
+}

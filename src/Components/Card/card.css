@@ -1,6 +1,17 @@
 .card{
-    width: 20%;
     margin: 20px;
     margin-top: 100px;
     
+}
+.button{
+ margin-bottom: 10px;
+}
+.content{
+    color: black;
+}
+.image{
+    height: 50%;
+}
+.full{
+    height: 60vh;
 }

@@ -1,22 +1,61 @@
-.Navbar{
+.Navbar {
     height: 10vh;
     width: 100%;
     display: flex;
     color: white;
     font-weight: bold;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
- 
+
 }
-h2{
-    
-    height: 50px;
-    padding: 10px;
-    padding-top: 5px;
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: none;
+    align-items: center;
+    justify-content: center !important;
+    display: flex;
+}
+
+.button a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: none;
+    align-items: center;
+    justify-content: center !important;
+    display: flex;
+}
+
+h3 {
+
+    height: 40px;
+    font-size: 16px;
     margin-top: 10px;
     border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+
 }
-h2:hover{
+
+.button {
+    background-color: blue;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+
+h3:hover {
     cursor: pointer;
-    background-color: gray;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.college {
+    display: flex;
+    gap: 10px;
+}
+
+.college img {
+    border-radius: 50%;
+    width: 20%;
 }

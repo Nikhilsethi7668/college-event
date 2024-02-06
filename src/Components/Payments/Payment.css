@@ -1,0 +1,9 @@
+h1,
+h2 {
+    color: black;
+}
+
+.payment {
+    height: 100vh;
+    background-color: white;
+}

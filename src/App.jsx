@@ -1,17 +1,18 @@
 import React from "react";
 import CollapsibleExample from "./Components/Navbar/Navbar";
-import UncontrolledExample from "./Components/imageSlider/Slider";
-import Page from "./Components/Page/Page";
+
 import Footer from "./Components/Footer/Footer";
 import "./App.css";
+import Routing from "./utils/Routing";
+//import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div className="body">
       <CollapsibleExample />
-      <UncontrolledExample />
-      <Page />
+      <Routing />
       <Footer />
+
     </div>
   );
 }
